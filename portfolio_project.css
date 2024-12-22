@@ -1,0 +1,125 @@
+.nave-bar {
+  padding-bottom: 10px;
+  background-color: #2c3a46;
+}
+.nave-bar .line {
+  padding: 10px;
+}
+.nave-bar hr {
+  width: 1000px;
+  margin-bottom: 5px;
+  border: 10px solid #e7ac82;
+  border-radius: 5px;
+}
+.nave-bar ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  list-style-type: none;
+}
+.nave-bar ul li {
+  color: white;
+}
+.nave-bar nav {
+  border-style: solid;
+  border-top-style: solid #000000;
+  border-left-style: solid #000000;
+  border-right-style: solid #000000;
+  border-width: 2px;
+}
+
+.headdeer {
+  height: 900px;
+  background-image: url("project.jpg");
+  background-size: cover;
+  color: black;
+  display: flex;
+  flex-direction: column;
+}
+.headdeer h5 {
+  display: inline-block;
+}
+.headdeer .pr {
+  padding-left: 700px;
+  font-size: 50px;
+}
+.headdeer .se {
+  font-size: 50px;
+  text-align: left;
+  padding-left: 350px;
+  padding-top: 20px;
+}
+.headdeer .ig {
+  padding-left: 400px;
+}
+.headdeer .ig img {
+  width: 300px;
+  height: 200px;
+}
+.headdeer .ig .se2 {
+  padding-left: 100px;
+}
+.headdeer h5 {
+  width: 900px;
+  font-size: 20px;
+  text-align: center;
+  padding-left: 300px;
+}
+.headdeer .btn {
+  padding-left: 900px;
+}
+.headdeer .btn button {
+  padding-left: 300px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #e7ac82;
+  background-color: rgba(0, 0, 0, 0.523);
+  padding: 20px;
+  color: #ffffff;
+}
+
+.cof {
+  height: 900px;
+  color: black;
+  display: flex;
+  flex-direction: column;
+}
+.cof h5 {
+  display: inline-block;
+}
+.cof .s {
+  font-size: 50px;
+  text-align: left;
+  padding-left: 350px;
+  padding-top: 20px;
+}
+.cof .im {
+  padding-left: 400px;
+}
+.cof .im img {
+  width: 350px;
+  height: 200px;
+}
+.cof .im .see2 {
+  padding-left: 100px;
+  height: 300px;
+  width: 230px;
+}
+.cof .btnn {
+  padding-left: 900px;
+}
+.cof .btnn button {
+  padding-left: 300px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #e7ac82;
+  background-color: rgba(0, 0, 0, 0.523);
+  padding: 20px;
+  color: #ffffff;
+}
+.cof h5 {
+  width: 900px;
+  font-size: 20px;
+  text-align: center;
+  padding-left: 300px;
+}/*# sourceMappingURL=portfolio_project.css.map */

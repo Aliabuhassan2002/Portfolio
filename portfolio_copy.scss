@@ -1,0 +1,80 @@
+// General Styles
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+// Navbar
+.nave-bar ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    padding: 0;
+}
+
+// Hero Section
+.herosec {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.personalImage img, .logoImage img {
+    max-width: 100%;
+    height: auto;
+}
+
+// Grid Projects
+.grid_projects {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin: 20px;
+}
+
+.grid_projects div {
+    text-align: center;
+}
+
+// Footer
+.footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
+
+// Responsive Styles
+@media (max-width: 768px) {
+    .nave-bar ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .grid_projects {
+        grid-template-columns: 1fr;
+    }
+
+    .herosec {
+        flex-direction: column;
+    }
+
+    .footer {
+        font-size: 0.8em;
+    }
+}
+
+@media (max-width: 480px) {
+    .nave-bar ul {
+        font-size: 14px;
+    }
+
+    .herosec img {
+        width: 80%;
+    }
+
+    .story .info2 {
+        font-size: 0.9em;
+    }
+}

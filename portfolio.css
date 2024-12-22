@@ -1,0 +1,253 @@
+.nave-bar {
+  padding-bottom: 10px;
+  background-color: #2c3a46;
+}
+.nave-bar .line {
+  padding: 10px;
+}
+.nave-bar hr {
+  width: 1000px;
+  margin-bottom: 5px;
+  border: 10px solid #e7ac82;
+  border-radius: 5px;
+}
+.nave-bar ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  list-style-type: none;
+}
+.nave-bar ul li {
+  color: white;
+}
+.nave-bar nav {
+  border-style: solid;
+  border-top-style: solid #000000;
+  border-left-style: solid #000000;
+  border-right-style: solid #000000;
+  border-width: 2px;
+}
+
+.logoImage {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  padding-top: 400px;
+}
+.logoImage img {
+  z-index: 1;
+  width: 200px;
+  height: 200px;
+  border-style: solid;
+  border-width: 15px;
+  border-color: #e7ac82;
+  border-radius: 25px;
+}
+
+.personalImage {
+  margin-top: 10px;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+}
+.personalImage img {
+  width: 287px;
+  height: 415px;
+  margin-left: 500px;
+  margin-top: 100px;
+  border-style: solid;
+  border-width: 15px;
+  border-color: #e7ac82;
+}
+
+.info {
+  display: inline-block;
+  position: absolute;
+  width: 430px;
+  height: 400px;
+  margin-left: 500px;
+  margin-bottom: 700px;
+}
+.info .info2 {
+  line-height: 2;
+  text-align: justify;
+}
+
+.herosec {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 700px;
+  background-image: url("home.jpg");
+  background-size: cover;
+}
+.herosec .name {
+  font-size: 50px;
+  width: 800px;
+}
+
+.field {
+  width: 500px;
+  padding-left: 350px;
+  font-size: 30px;
+}
+
+.btn button {
+  border-radius: 20px;
+  padding: 20px;
+  font-size: 24px;
+  position: relative;
+  left: 900px;
+}
+
+.story {
+  height: 900px;
+  background-image: url("6837004.jpg");
+  background-size: cover;
+}
+.story h1 {
+  color: white;
+  text-align: center;
+  padding-top: 20px;
+}
+.story .info {
+  font-family: "Times New Roman", serif;
+  color: white;
+  border-style: solid;
+  border-width: 15px;
+  border-color: #e7ac82;
+  background-color: #041420;
+  height: 400px;
+  margin-left: 300px;
+  margin-top: 100px;
+}
+.story .info .social {
+  width: 100px;
+}
+.story .info img {
+  width: 60px;
+  height: 60px;
+}
+.story .info .inlin {
+  width: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.story .info .inlin img {
+  border-style: solid;
+  border-width: 5px;
+  border-color: #e7ac82;
+  border-radius: 100px;
+}
+.story .info .face {
+  display: flex;
+  flex-direction: row;
+  width: 50px;
+  padding-left: 30px;
+}
+.story .info .face img {
+  border-style: solid;
+  border-width: 5px;
+  border-color: #e7ac82;
+  border-radius: 100px;
+  width: 70px;
+  height: 70px;
+}
+.story .info .formalimg {
+  margin-bottom: 100px;
+  margin-left: 100px;
+  width: 350px;
+  height: 350px;
+}
+.story .info .formalimg img {
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.4352941176);
+  width: 350px;
+  height: 350px;
+}
+.story .cont {
+  display: flex;
+  flex-direction: row;
+}
+
+.grid_projects {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 430px auto;
+  height: 900px;
+  background-image: url("project_back.jpg");
+  background-size: cover;
+  color: white;
+}
+.grid_projects .skl {
+  background-color: rgba(0, 0, 0, 0.5137254902);
+  margin-top: 150px;
+  margin-left: 20px;
+}
+.grid_projects .skl h1 {
+  text-align: center;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #e7ac82;
+}
+.grid_projects .skills {
+  margin-left: 20px;
+  text-align: center;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #e7ac82;
+}
+.grid_projects .skills h5 {
+  padding: 20px;
+  border-bottom: solid #e7ac82;
+  border-width: 2px;
+}
+.grid_projects .prflex {
+  display: flex;
+  flex-direction: column;
+}
+.grid_projects .prflex h1 {
+  text-align: center;
+  margin-top: 140px;
+  margin-left: 100px;
+}
+.grid_projects .prflex img {
+  border-style: solid;
+  border-width: 5px;
+  border-color: #e7ac82;
+  margin-left: 250px;
+  margin-top: 80px;
+  width: 200px;
+  height: 200px;
+}
+.grid_projects .prflex .coffee img {
+  border-style: solid;
+  border-width: 5px;
+  border-color: #e7ac82;
+  margin-left: 500px;
+  margin-top: 20px;
+  width: 200px;
+  height: 200px;
+}
+
+.footer {
+  margin-top: auto;
+  background: linear-gradient(90deg, #e7ac82, #FFD700);
+  text-align: center;
+  padding: 15px 20px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.footer a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: normal;
+  margin: 0 10px;
+  transition: color 0.3s ease;
+}
+
+.footer a:hover {
+  color: #000;
+}/*# sourceMappingURL=portfolio.css.map */
