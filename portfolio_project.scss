@@ -3,6 +3,11 @@ $first_color: #041420;
 $second-color: #e7ac82;
 $bordercolor:#000000;
 $txtcolor:#ffffff;
+a{
+    text-decoration: none;
+    color: white;
+    font-style: $primary_font;
+}
 
 .nave-bar{
     padding-bottom: 10px;
@@ -83,7 +88,7 @@ h5{
    
    
     padding-left: 900px;
-    button{
+    a{
         padding-left: 300px;
     border-style: solid;
         border-width: 5px;
@@ -148,4 +153,26 @@ h5{
     text-align: center;
     padding-left: 300px;
 }
+}
+.footer {
+    margin-top: auto;
+    background: linear-gradient(90deg, $second-color, #FFD700);
+    text-align: center;
+    padding: 15px 20px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: normal;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+.footer a:hover {
+    color: #000;
 }

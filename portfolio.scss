@@ -2,6 +2,14 @@ $primary_font:'Times New Roman', serif;
 $first_color: #041420;
 $second-color: #e7ac82;
 $bordercolor:#000000;
+html{
+    scroll-behavior: smooth;
+  }
+a{
+    text-decoration: none;
+    color: white;
+    font-style: $primary_font;
+}
 .nave-bar{
     padding-bottom: 10px;
     background-color: #2c3a46;
